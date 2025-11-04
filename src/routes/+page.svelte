@@ -25,62 +25,93 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="The platform problem"
+	text="Building multi-merchant marketplaces means integrating with dozens of ecommerce platforms—Shopify, WooCommerce, BigCommerce, and more. Each has different APIs, data formats, and authentication flows.
+
+Violet solves this with a single unified API that connects to 16+ platforms and 5M+ merchants. What would take a large team months to build, you can ship with two developers in weeks."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Priya Mehta",
+			position: "VP of Engineering",
+			company: "StyleMarket",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We launched our multi-merchant marketplace in three weeks instead of six months. Violet's unified API eliminated the complexity of building individual platform integrations, letting our team of two backend developers ship what would have required a team of eight.",
+			image: "/generated/image-editorial-documentary-style-photograph-o.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Johnson",
+			position: "Co-Founder & CTO",
+			company: "CreatorHub",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Our transaction processing costs dropped 92% within the first month. What used to take our operations team 48 hours to reconcile now happens instantly through Violet's normalized checkout flow. The ROI was immediate and measurable.",
+			image: "/generated/image-editorial-documentary-style-image-of-a-c.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Rodriguez",
+			position: "Head of Product",
+			company: "GiftCircle",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Connecting to Shopify, WooCommerce, and BigCommerce took us four days total with Violet. Our previous attempt to build this ourselves consumed six months and never reached production. The unified data models meant zero merchant-specific edge cases.",
+			image: "/generated/image-editorial-documentary-photograph-of-a-pr.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Built for speed, designed for scale"
+	subtitle="Everything you need to orchestrate multi-merchant commerce without the complexity"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Ship integrations in days, not months",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Connect to 16+ ecommerce platforms with a single unified API. What takes a large team months to build, you can launch with two developers in weeks."
 		},
 		{
-			title: "Data Analysis",
+			title: "Access 5M+ merchants instantly",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"One API unlocks Shopify, WooCommerce, BigCommerce, and 13+ more platforms. Scale your marketplace without building individual platform integrations."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Real-time data normalization",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Transform checkout from 36 hours to 300 milliseconds with unified data models. Every platform's data automatically normalized into a consistent schema."
+		},
+		{
+			title: "Automated commission handling",
+			description:
+				"Calculate, transfer, and process refunds automatically across all merchants. Eliminate manual reconciliation and reduce transaction costs by 95%."
+		},
+		{
+			title: "Crystal-clear merchant attribution",
+			description:
+				"Track which creator, channel, or campaign drove each purchase. Turn your marketplace into a transparent sales channel merchants actually want to join."
+		},
+		{
+			title: "Platform-agnostic architecture",
+			description:
+				"Support custom integrations for enterprise merchants while maintaining the same unified API. Your marketplace works with any ecommerce system."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction 
+	title="Ship your marketplace this month"
+	subtitle="Not next quarter"
+	description="Stop wrestling with platform integrations. Join marketplace builders who deployed multi-merchant checkout in weeks with just two developers. Book a demo and see why teams choose Violet over building in-house."
+	imageSrc="/generated/image-editorial-documentary-photograph-of-a-de.webp"
+	callsToAction={[
+		{
+			href: "/",
+			label: "Book a demo",
+			variant: "primary"
+		},
+		{
+			href: "/",
+			label: "View documentation",
+			variant: "secondary"
+		}
+	]}
+/>

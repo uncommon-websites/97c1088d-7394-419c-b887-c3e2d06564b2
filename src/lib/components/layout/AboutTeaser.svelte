@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
+		name: "Leonhard Soenke",
 		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		image: "/generated/image-a-professional-portrait-of-a-ceo-founder.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"At Throne, we watched orders pile up for 36 hours while our team manually processed each one. I realized every multi-merchant platform faces this same nightmare. We built Violet to solve it once and for all—turning what takes months into days, and what takes days into milliseconds."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
