@@ -12,7 +12,7 @@
 <CenteredTextOnlyHero
 	title="Commerce infrastructure for platforms and marketplaces"
 	subtitle="Unify multi-merchant checkout across any ecommerce platform. Get cross-platform commerce orchestration in days, not months."
-	imageSrc="/generated/image-a-modern-organized-workspace-with-a-smal.webp"
+	imageSrc="/generated/image-a-modern-moody-architectural-office-inte.webp"
 />
 <LogoScroller 
 	label="Trusted by industry leaders" 
