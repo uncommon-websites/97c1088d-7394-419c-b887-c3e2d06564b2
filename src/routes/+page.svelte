@@ -6,13 +6,12 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
+	import IllustratedHero from "$lib/components/layout/hero-sections/IllustratedHero.svelte";
 </script>
 
-<CenteredTextOnlyHero
+<IllustratedHero
 	title="Commerce infrastructure for platforms and marketplaces"
 	subtitle="Unify multi-merchant checkout across any ecommerce platform. Get cross-platform commerce orchestration in days, not months."
-	imageSrc="/generated/image-a-modern-moody-architectural-office-inte.webp"
 />
 <LogoScroller 
 	label="Trusted by industry leaders" 
