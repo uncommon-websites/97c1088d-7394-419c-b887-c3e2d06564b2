@@ -1,11 +1,12 @@
 <script lang="ts">
-	// Types
 	import type { HTMLAttributes } from "svelte/elements";
-
-	// Props
 	const props: HTMLAttributes<SVGSVGElement> = $props();
 </script>
 
-<svg class={props.class} viewBox="0 0 64 64">
-	<rect width="64" height="64" rx="12" ry="12" fill="currentColor" />
+<svg viewBox="0 0 97 96" fill="none" xmlns="http://www.w3.org/2000/svg" class="" {...props}>
+<path d="M39.0055 0C39.0055 21.171 21.8132 38.3333 0.605469 38.3333C12.3821 38.3333 23.3333 41.8614 32.4563 47.9167C47.9767 37.6153 58.2055 20.0002 58.2055 0H39.0055Z" fill="currentColor"/>
+<path opacity="0.8" d="M96.6055 38.3333C75.3976 38.3333 58.2055 21.171 58.2055 0C58.2055 11.7562 54.6712 22.6885 48.6055 31.7956C58.9247 47.289 76.5705 57.5 96.6055 57.5V38.3333Z" fill="currentColor"/>
+<path opacity="0.6" d="M58.2059 95.8334C58.2059 74.6624 75.398 57.5001 96.6059 57.5001C84.8293 57.5001 73.8779 53.972 64.755 47.9167C49.2347 58.2181 39.0059 75.8332 39.0059 95.8334H58.2059Z" fill="currentColor"/>
+<path opacity="0.4" d="M0.60547 57.5C21.8132 57.5 39.0055 74.6623 39.0055 95.8334C39.0055 84.077 42.5397 73.1448 48.6055 64.0378C38.2862 48.5444 20.6404 38.3334 0.605469 38.3334L0.60547 57.5Z" fill="currentColor"/>
 </svg>
+
